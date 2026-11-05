@@ -1,1 +1,39 @@
-
+:root {
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%)
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    min-height:100vh;
+}
+.card{
+width:100%;
+    max-width:25rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.article-preview{
+    padding:2rem;
+}
+.article-author{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.about-author{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+    gap:2rem;
+}
+.author-image{
+    border-radius:50%;
+}
